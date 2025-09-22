@@ -1,10 +1,15 @@
 package codealongs.Methods;
 
+import java.util.Scanner;
+
 public class DistanceConverter {
     public static void main(String[] args) {
-        milesToKilometers(3.68);
-        milesToKilometers(4.7);
-        milesToKilometers(8.2);
+        System.out.println("Please input a distance to convert (miles):");
+        Scanner scan = new Scanner(System.in);
+        double distance = scan.nextDouble();
+
+        milesToKilometers(distance);
+
     }
 
     static void milesToKilometers(double miles) {
@@ -12,5 +17,9 @@ public class DistanceConverter {
         System.out.println(kilometers);
     }
 
+    static void kilometersToMiles(double kilometers) {
+        double miles = kilometers / 1.60934;
+        System.out.println(miles);
+    }
     
 }
