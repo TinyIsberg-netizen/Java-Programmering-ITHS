@@ -1,5 +1,5 @@
 package E6;
 
-public class Motorcykel {
+public class Motorcykel extends Landbaserad{
     
 }

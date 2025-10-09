@@ -1,5 +1,5 @@
 package E6;
 
-public class Flygplan {
+public class Flygplan extends Luftbaserade {
     
 }

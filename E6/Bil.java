@@ -1,5 +1,5 @@
 package E6;
 
-public class Bil {
+public class Bil extends Landbaserad {
     
 }
